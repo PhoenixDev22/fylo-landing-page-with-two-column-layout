@@ -44,6 +44,8 @@ const validRegExp = /^[a-zA-Z0-9][\-_\.\+\!\#\$\%\&\'\*\/\=\?\^\`\{\|]{0,1}([a-z
 [This email Regexpression was copied from here.](https://herewecode.io/blog/email-validation-javascript/#:~:text=The%20most%20common%20way%20to%20validate%20an%20email,an%20email%20is%20a%20string%20following%20this%20format%3A)
 
 
+
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -53,6 +55,11 @@ const validRegExp = /^[a-zA-Z0-9][\-_\.\+\!\#\$\%\&\'\*\/\=\?\^\`\{\|]{0,1}([a-z
 - Autoprefixer: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules.
 
 
+### What I learned
+
+- *The Font Awesome library contains too many icons and they are all included in one file. If a designer or layout designer only needs to connect a couple of icons, they still have to load the entire library completely. And these are hundreds of thousands of extra icons that will take up space. However, there is a solution here too - creating your own assembly, which will include only the necessary icons.* So I'll try to create my own collection of required icons.
+
+- Even the Font awesome icons,  if they are decorative should have ``aria-hidden="true"`` to be ignored by assistive technology reader.
 
 
 ### Continued development
