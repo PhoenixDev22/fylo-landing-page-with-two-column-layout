@@ -50,6 +50,7 @@ const validRegExp = /^[a-zA-Z0-9][\-_\.\+\!\#\$\%\&\'\*\/\=\?\^\`\{\|]{0,1}([a-z
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- Autoprefixer: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules.
 
 
 
@@ -57,9 +58,7 @@ const validRegExp = /^[a-zA-Z0-9][\-_\.\+\!\#\$\%\&\'\*\/\=\?\^\`\{\|]{0,1}([a-z
 ### Continued development
 
 - Focusing on accessiblity. 
-- Adding more animations to the page.
-- Adding minified files.
-- Minimizing the code.
+- Adding animations to the page.
 - Learning BEM convention.
 
 
