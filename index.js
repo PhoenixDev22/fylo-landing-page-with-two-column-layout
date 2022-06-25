@@ -41,6 +41,7 @@ function checkEmailValidation (e){
         currentValidationMsg.classList.remove(`validation__msg`);
         currentValidationMsg.classList.add(`valid__msg`);
         currentEmail.classList.add(`green-border`)
+        e.currentTarget.submit()
     }
     setTimeout(() => {
         currentValidationMsg.setAttribute(`hidden`, `true`);
