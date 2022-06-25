@@ -51,11 +51,11 @@
           <p class="hero__para">Fylo stores your most important files in one secure location. 
             Access them wherever you need, share and collaborate with friends, 
             family, and co-workers.</p>
-             <form id="hero__form" class="form flex" action="#" method="post" novalidate>
+             <form id="hero__form" class="form flex" novalidate>
             <div class="form__input">
               <label for="hero-email" class="sr-only">Enter your email</label>
               <input id="hero-email" aria-describedby="hero__validation-msg" class="input" type="email" name="email" value="" placeholder="Enter your email">
-              <p id="hero__validation-msg" class="validation__msg" hidden aria-live="assertive">Please check your email</p>
+              <p id="hero__validation-msg" class="validation__msg" hidden aria-live="assertive" role="alert">Please check your email</p>
             </div>
             <button type="submit" id="hero__submit-btn" class="submit-btn">Get Started</button>
           </form>
@@ -110,11 +110,11 @@
           <p class="sign__para">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you. </p>
         </div>
         <div class="col-2">
-            <form id="sign__form" class="form flex" action="#" method="post" novalidate>
+            <form id="sign__form" class="form flex" novalidate>
             <div class="form__input">
               <label for="sign-email" class="sr-only">Enter your email</label>
               <input id="sign-email" aria-describedby="sign__validation-msg" class="input" type="email" name="email" value="" placeholder="email@example.com">
-              <p id="sign__validation-msg" class="validation__msg color-white" hidden aria-live="assertive">Please check your email</p>
+              <p id="sign__validation-msg" class="validation__msg color-white" hidden aria-live="assertive" role="alert">Please check your email</p>
             </div>
             <button type="submit" id="sign__submit-btn" class="submit-btn">Get Started For Free</button>
           </form>
