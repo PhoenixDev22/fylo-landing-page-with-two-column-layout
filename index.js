@@ -22,12 +22,18 @@ signForm.addEventListener(`submit`, event => checkEmailValidation(event))
 function checkEmailValidation (e){
     e.preventDefault();
     // Get the email  field of the current form
-    let currentEmail = e.currentTarget.children[0].children[1];
+    // let currentEmail = e.currentTarget.children[0].children[1];
+    let currentEmail = document.querySelector(`#${e.currentTarget.id}  input` )
+    console.log(document.querySelector(`#${e.currentTarget.id}  input` ))
     // Get the current value of the  email field of the current form 
     let currentEmailValue = e.currentTarget.email.value;
     // Check validation 
     isValid = validRegExp.test(currentEmailValue)
-    let currentValidationMsg = e.currentTarget.children[0].children[2];
+    
+    // let currentValidationMsg = e.currentTarget.children[0].children[2];
+    let currentValidationMsg = document.querySelector(`#${e.currentTarget.id} [role=alert]`);
+
+    // console.log(document.querySelector(`#${e.currentTarget.id} [role=alert]`))
 
     if(!isValid){
         currentValidationMsg.removeAttribute("hidden")
